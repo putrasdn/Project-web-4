@@ -162,3 +162,30 @@ li {
 #grid:hover > .grid-title > a {
     color: white;
 }
+
+/*banner*/
+
+.banner {
+    text-align: center;
+}
+
+/*new this week*/
+
+.new h1 {
+    text-align: center;
+}
+.item-new {
+    margin: 15px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    padding: 15px;
+    width: 1000px;
+}
+#item-new-grid {
+    text-align: center;
+}
+#item-new-grid p{
+    padding: 20px auto;
+}
