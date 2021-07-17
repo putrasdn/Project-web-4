@@ -186,6 +186,22 @@ li {
 #item-new-grid {
     text-align: center;
 }
-#item-new-grid p{
-    padding: 20px auto;
+#item-new-title {
+    margin-top: 25px;
+}
+
+/*separator*/
+.white-separator {
+    margin: 100px auto;
+}
+
+/*Explanation*/
+.explanation {
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+}
+.explanation p {
+    line-height: 25px;
+    font-size: 15px;
 }
