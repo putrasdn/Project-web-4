@@ -30,7 +30,7 @@ path {
 polygon {
     fill: white;
 }
-ul {
+.navigation ul {
     color: white;
 }
 li {
@@ -197,11 +197,32 @@ li {
 
 /*Explanation*/
 .explanation {
-    width: 70%;
+    width: 60%;
     margin: 40px auto;
     text-align: center;
 }
 .explanation p {
     line-height: 25px;
     font-size: 15px;
+}
+
+/*Nav Bottom*/
+.nav-bottom {
+    display: flex;
+    justify-content: center;
+}
+.bottom-left {
+    float: left;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+.bottom-right {
+    float: right;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+#bottom-grid li {
+    display: block;
 }
