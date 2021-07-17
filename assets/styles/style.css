@@ -213,16 +213,291 @@ li {
 }
 .bottom-left {
     float: left;
+    padding-right: 40px;
+}
+.bottom-left h3 {
+    padding-left: 40px;
+}
+.bottom-left-grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 190px 190px 190px;
     grid-template-rows: auto auto;
 }
 .bottom-right {
     float: right;
+    padding-left: 40px;
+}
+.bottom-right h3 {
+    padding-left: 40px;
+}
+.bottom-right-grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 190px 190px 190px;
     grid-template-rows: auto auto;
 }
 #bottom-grid li {
     display: block;
+}
+#bottom-grid a {
+    text-decoration: none;
+    color: black;
+}
+
+.separator-line {
+    margin: 0 auto;
+    height: 60px;
+    width: 800px;
+    border-top: 0.5px solid rgb(228, 227, 227);
+}
+/*More info*/
+.more-info {
+    display: flex;
+    justify-content: center;
+}
+.more-info-left-container {
+    float: left;
+    padding-right: 40px;
+}
+.more-info-left {
+    display: grid;
+    grid-template-columns: 190px 190px 190px;
+    grid-template-rows: auto;
+}
+.more-info-right-container {
+    float: right;
+    padding-left: 40px;
+}
+.more-info-right {
+    display: grid;
+    grid-template-columns: 190px 190px 190px;
+    grid-template-rows: auto;
+}
+
+/*Icon GFG*/
+.icon-gfg {
+    background-image: url(../image/sprite.svg);
+    width: 127px;
+    height: 36px;
+    background-position: -6275px 0;
+}
+
+/*Grid Flags*/
+.lokasi-grid {
+    display: grid;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: auto auto auto auto;
+}
+/*Icon Singapore Flag*/
+.icon-sgflag {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -9160px 0;
+}
+/*Icon Philipine FLag*/
+.icon-phflag {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -8390px 0;
+}
+
+/*Icon Malaysia Flag*/
+.icon-myflag {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -7995px 0;
+}
+
+/*Icon Hongkong Flag*/
+.icon-hkflag {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -6845px 0;
+}
+
+/*Icon Indonesia FLag*/
+.icon-idflag {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -6890px 0;
+}
+
+/*Icon Hongkong 2 Flag*/
+.icon-mcflag {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -7740px 0;
+}
+
+/*Icon Taiwan FLag*/
+.icon-twflag {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -10100px 0;
+}
+
+/*Pembayaran*/
+.pembayaran-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50px 50px 50px 50px;
+}
+.icon-mastercard {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -7650px 0;
+}
+.icon-bca {
+    background-image: url(../image/sprite.svg);
+    width: 65px;
+    height: 20px;
+    background-position: -3160px 0;
+}
+.icon-bni {
+    background-image: url(../image/sprite.svg);
+    width: 65px;
+    height: 22px;
+    background-position: -3020px 0;
+}
+.icon-jcb {
+    background-image: url(../image/sprite.svg);
+    width: 32px;
+    height: 20px;
+    background-position: -7115px 0;
+}
+.icon-visa {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -10620px 0;
+}
+.icon-bri {
+    background-image: url(../image/sprite.svg);
+    width: 65px;
+    height: 16px;
+    background-position: -3090px 0;
+}
+.icon-mandiri {
+    background-image: url(../image/sprite.svg);
+    width: 65px;
+    height: 20px;
+    background-position: -2880px 0;
+}
+.icon-cash {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -4690px 0;
+}
+.icon-amex {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -1805px 0;
+}
+
+/*Jasa Pengiriman*/
+.jasa-grid {
+    display: grid;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: auto;
+}
+.icon-jne {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -1080px 0;
+}
+.icon-rpx {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -1350px 0;
+}
+.icon-pos {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -8720px 0;
+}
+.icon-popbox {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -1305px 0;
+}
+.icon-sicepat {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -1485px 0;
+}
+.icon-lion {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -1215px 0;
+}
+.icon-alfa {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -945px 0;
+}
+.icon-zoom {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -1680px 0;
+}
+.icon-ninja {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -1260px 0;
+}
+.icon-sap {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -1395px 0;
+}
+
+/*Partner Kami*/
+.partner-grid {
+    display: grid;
+    grid-template-columns: 80px 80px;
+    grid-template-rows: auto;
+}
+.icon-gojek {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -1035px 0;
+}
+.icon-telkomsel {
+    background-image: url(../image/sprite.svg);
+    width: 40px;
+    height: 40px;
+    background-position: -1530px 0;
+}
+
+/*Sistem Keamanan*/
+.sistem li {
+    display: list-item;
+    list-style: none;
+    padding-left: 1.5em;
+    background-size: 1.5em;
+    background: url(../image/icon_check-light.svg) no-repeat;
+    background-position-y: .1em;
+}
+.sistem ul {
+    padding-left: 0;
 }
