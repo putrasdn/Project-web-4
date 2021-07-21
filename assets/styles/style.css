@@ -44,14 +44,36 @@ li {
     font-size: 0.75em;
 }
 .search {
+    display: block;
     margin: auto 15px auto 25px;
+}
+.search form {
+    margin: 0;
+}
+.search input {
+    width: 100%;
+    float: left;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 0;
+    height: 25px;
+    outline: none;
+}
+.search button {
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+    float: right;
+    border: 1px solid white; 
+    border-radius: 0;
+    height: 29px;
 }
 .user li {
     padding-left: 15px;
 }
 .user ul{
-   padding-inline-start: 0px;
    margin: 12px;
+   padding-left: 20px;
 }
 .user i {
     font-size: 25px;
@@ -604,7 +626,7 @@ form {
     float: left;
     
 }
-button {
+#subscribe button {
     color: white;
     display: inline-block;
     text-align: center;
