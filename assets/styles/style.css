@@ -197,7 +197,7 @@ li {
 
 /*Explanation*/
 .explanation {
-    width: 60%;
+    width: 80%;
     margin: 40px auto;
     text-align: center;
 }
@@ -500,4 +500,92 @@ li {
 }
 .sistem ul {
     padding-left: 0;
+}
+
+
+/*Footer*/
+.footer-container {
+    border-top: 10px solid transparent;
+    border-image:url(../image/branding_line.png) 20 0 0 0 round;
+    background-color: black;
+    padding: 0 17.5%;
+}
+footer p {
+    color: white;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+footer h6 {
+    color: white;
+}
+footer a {
+    color: white;
+}
+footer li {
+    display: list-item;
+    list-style: none;
+    font-size: 14px;
+}
+footer li a {
+    text-decoration: none;
+}
+#andaexp span {
+    color: gold;
+}
+
+
+/*Footer Grid 1*/
+.footer-grid-1{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+.footer-grid-1 h6 {
+    font-weight: bolder;
+    font-size: 0.85em;
+}
+.footer-zalora {
+    width: 33.33%;
+    padding: 5px;
+}
+#footer-logoexp{
+    padding-right: 70px;
+}
+.footer-layanan {
+    width: 16.67%;
+    padding: 5px;
+}
+.footer-layanan ul {
+    padding-left: 0;
+}
+.footer-layanan li {
+    line-height: 25px;
+}
+.footer-tentang {
+    width: 16.67%;
+    padding: 5px;
+}
+.footer-tentang ul {
+    padding-left: 0;
+}
+.footer-tentang li {
+    line-height: 25px;
+}
+.footer-anda {
+    width: 33.33%;
+    padding: 5px;
+}
+
+/*subscription*/
+.subscription {
+    display: inline-block;
+}
+#button-female {
+    float: left;
+}
+#button-male {
+    
 }
