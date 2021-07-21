@@ -517,6 +517,8 @@ footer p {
 }
 footer h6 {
     color: white;
+    font-weight: bolder;
+    font-size: 0.85em;
 }
 footer a {
     color: white;
@@ -542,10 +544,6 @@ footer li a {
 	justify-content: space-around;
 	align-items: stretch;
 	align-content: stretch;
-}
-.footer-grid-1 h6 {
-    font-weight: bolder;
-    font-size: 0.85em;
 }
 .footer-zalora {
     width: 33.33%;
@@ -578,14 +576,141 @@ footer li a {
     width: 33.33%;
     padding: 5px;
 }
+#andaexp {
+    padding-right: 70px;
+}
 
 /*subscription*/
+form {
+    margin-right: 70px;
+}
+#subscribe label {
+    color: white;
+}
+#subscribe input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+}
+::placeholder {
+    color: rgba(172, 170, 170, 0.808);
+}
 .subscription {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
 }
 #button-female {
     float: left;
+    
+}
+button {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    border: 1px solid white;
+    width: 140px;
+    height: 35px;
 }
 #button-male {
     
+}
+
+
+/*Footer Grid 2*/
+.footer-grid-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Temukan Kami*/
+.sosmed {
+    display: inline-flex;
+    width: 100%;
+}
+#icon-fb {
+    width: 41px;
+    height: 40px;
+    background-position: -6050px 0;
+    background-image: url(../image/sprite.svg);
+}
+#icon-ig {
+    width: 41px;
+    height: 40px;
+    background-position: -7000px 0;
+    background-image: url(../image/sprite.svg);
+}
+#icon-twt {
+    width: 41px;
+    height: 40px;
+    background-position: -10165px 0;
+    background-image: url(../image/sprite.svg);
+}
+#icon-pint {
+    width: 40px;
+    height: 40px;
+    background-position: -8435px 0;
+    background-image: url(../image/sprite.svg);
+}
+#icon-yt {
+    width: 41px;
+    height: 40px;
+    background-position: -10865px 0;
+    background-image: url(../image/sprite.svg);
+}
+#icon-mapp {
+    width: 40px;
+    height: 40px;
+    background-position: -7890px 0;
+    background-image: url(../image/sprite.svg);
+}
+#icon-lk {
+    width: 41px;
+    height: 40px;
+    background-position: -7380px 0;
+    background-image: url(../image/sprite.svg);
+}
+
+
+/*Download App*/
+.download-app {
+    display: inline-flex;
+}
+#icon-apk {
+    width: 136px;
+    height: 40px;
+    background-position: -6585px 0;
+    background-image: url(../image/sprite.svg);
+}
+#android {
+    padding-right: 10px;
+}
+#icon-ios {
+    width: 136px;
+    height: 40px;
+    background-position: -1865px 0;
+    background-image: url(../image/sprite.svg);
+}
+.download {
+    padding-right: 70px;
+}
+
+/*Footer Grid 3*/
+.footer-grid-3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.footer-grid-3 p {
+    line-height: 1em;
+}
+.footer-grid-3 span {
+    padding: 0 10px;
+}
+.footer-grid-3 a {
+    text-decoration: none;
+}
+#rightline2 {
+    text-align: right;
 }
